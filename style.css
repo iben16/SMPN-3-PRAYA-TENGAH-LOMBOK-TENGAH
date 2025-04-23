@@ -1,0 +1,89 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('sekolah 2.jpg'); /* Pastikan nama file sesuai */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+  
+/* Navigasi */
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    width: 50px;  /* Ukuran logo */
+    height: auto;
+    margin-right: 20px;  /* Jarak antara logo dan menu */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+  
+/* Galeri */
+.galeri {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+  
+.foto-item {
+    width: 280px;
+    text-align: center;
+}
+  
+.foto-item img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+  
+.foto-item img:hover {
+    transform: scale(1.05);
+}
+  
+.foto-item p {
+    margin-top: 10px;
+    font-size: 1em;
+}
